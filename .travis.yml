@@ -33,7 +33,7 @@ licenses:
 #  - adb shell input keyevent 82 &
 #  - chmod +x gradlew
 script:
-  - ./run-test-on-sauce.sh
+  - chmod +x ./run-test-on-sauce.sh
 #  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
 #  - emulator -avd test -no-skin -no-audio -no-window &
 #  - android-wait-for-emulator
