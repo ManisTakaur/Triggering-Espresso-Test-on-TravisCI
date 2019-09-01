@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><testsuite name="'Test' - device: Samsung_Galaxy_S6_sjc_free - test report id: 3" tests="1" failures="0" skipped="0" timestamp="2019-09-01T10:57:40.509Z" time="38.824"><testcase name="successfulLogin" classname="com.swaglabsmobileapp.MainActivityTest" time="5.7"/></testsuite>
