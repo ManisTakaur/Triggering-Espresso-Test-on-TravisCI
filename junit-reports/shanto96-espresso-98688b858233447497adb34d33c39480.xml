@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuite package="com.swaglabsmobileapp" tests="1" time="9.858">
+  <!--Espresso test result on SauceLabs-->
+  <testcase classname="com.swaglabsmobileapp.MainActivityTest" name="successfulLogin" status="success"/>
+  <system-out>INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.swaglabsmobileapp.MainActivityTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=successfulLogin
+INSTRUMENTATION_STATUS: class=com.swaglabsmobileapp.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=successfulLogin
+INSTRUMENTATION_STATUS: class=com.swaglabsmobileapp.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 9.858
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+</system-out>
+</testsuite>
