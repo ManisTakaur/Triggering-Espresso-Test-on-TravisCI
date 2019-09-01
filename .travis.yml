@@ -3,10 +3,10 @@ dist: trusty
 #jdk: oraclejdk8
 env:
   global:
-    - EMULATOR_VERSION=18
-    - ANDROID_API_LEVEL=26
+#    - EMULATOR_VERSION=18
+#    - ANDROID_API_LEVEL=26
     - ANDROID_TARGET=android-27
-    - ANDROID_EMU_API_LEVEL=22
+#    - ANDROID_EMU_API_LEVEL=22
     - ANDROID_ABI=armeabi-v7a
 android:
   components:
@@ -34,6 +34,7 @@ licenses:
 #  - chmod +x gradlew
 script:
   - chmod +x ./run-test-on-sauce.sh
+  - ./run-test-on-sauce.sh
 #  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
 #  - emulator -avd test -no-skin -no-audio -no-window &
 #  - android-wait-for-emulator
